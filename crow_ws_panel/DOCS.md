@@ -1,4 +1,4 @@
-# Home Assistant Browser for Elecrow ESP32P4 Advance panel
+# Home Assistant Browser TEST for Elecrow ESP32P4 Advance panel
 
 Show a Home Assistant dashboard on remote embedded touch screens.
 
@@ -35,12 +35,12 @@ ______________________________________________________________________
 
 1. Add this repository to your add-on store:
 
-   [![Open your Home Assistant instance and show the add Add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ffintros%2Fcrow-ha)
+   [![Open your Home Assistant instance and show the add Add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FFilimonova-Ekaterina%2Fcrow-ha-dop)
 
    Or manually: **Settings → Add-ons → Add-on Store → ⋮ → Repositories**, paste
-   `https://github.com/fintros/crow-ha`, then **Add → Close**.
+   `https://github.com/Filimonova-Ekaterina/crow-ha-dop`, then **Add → Close**.
 
-2. Open **Elecrow ESP32P4 interface**, press **Install**, and wait for the build to
+2. Open **Elecrow ESP32P4 interface TEST**, press **Install**, and wait for the build to
    finish. Supervisor pulls the prebuilt `grovety/crow-ws-server` base image, so
    there is no compilation on the device.
 

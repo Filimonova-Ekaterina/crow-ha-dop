@@ -8,7 +8,7 @@ COPY app/browser_ctl.js /app/browser_ctl.js
 ARG BUILD_ARCH
 ARG BUILD_VERSION
 LABEL \
-  io.hass.name="Elecrow ESP32P4 interface" \
+  io.hass.name="Elecrow ESP32P4 interface TEST" \
   io.hass.type="addon" \
   io.hass.arch="${BUILD_ARCH}" \
   io.hass.version="${BUILD_VERSION}"
